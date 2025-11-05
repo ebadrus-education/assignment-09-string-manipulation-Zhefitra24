@@ -8,9 +8,10 @@ int main() {
     int panjang1 = nama.length(); 
     int panjang2 = nama.size();    
 
-    cout << "Teks: " << nama << std::endl;
-    cout << "Panjang (length()): " << panjang1 << std::endl;
-    cout << "Panjang (size()): " << panjang2 << std::endl;
+    cout << "Teks: " << nama << endl;
+    cout << "Panjang (length()): " << panjang1 << endl;
+    cout << "Panjang (size()): " << panjang2 << endl;
     
     return 0;
+
 }
